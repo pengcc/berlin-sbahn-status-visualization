@@ -1,0 +1,1814 @@
+{
+  "processed_tweets": [
+    {
+      "id": "1952702375489364079",
+      "timestamp": "2025-08-05 12:05:00",
+      "date": "2025-08-05",
+      "hour": 12,
+      "text": "Ich verabschiede mich f\u00fcr heute. Ab jetzt h\u00e4lt euch Betty auf dem Laufenden. Gru\u00df Maya.",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1952622122888487273",
+      "timestamp": "2025-08-05 06:46:06",
+      "date": "2025-08-05",
+      "hour": 6,
+      "text": "#S41 #S8 #S85 Nach einer technischen St\u00f6rung an einem Zug in #Frankfurter_Allee ist mit Versp\u00e4tungen und vereinzelten Zugausf\u00e4llen zu rechnen.",
+      "lines": [
+        "S8",
+        "S41",
+        "S85"
+      ],
+      "status": "disruption",
+      "stations": [
+        "Frankfurter Allee"
+      ],
+      "likes": 11,
+      "retweets": 0
+    },
+    {
+      "id": "1952596040441311399",
+      "timestamp": "2025-08-05 05:02:28",
+      "date": "2025-08-05",
+      "hour": 5,
+      "text": "#S3 +++Bauarbeiten+++ Noch durchgehend bis zum 6.9. (Samstag, ca. 5 Uhr) entf\u00e4llt der Halt am Bahnhof #Hirschgarten. Zwischen #K\u00f6penick &lt;&gt; #Hirschgarten fahren Busse.  Zwischen #K\u00f6penick und #Friedrichshagen verkehren die Z\u00fcge im 20-Min-Takt.  https://t.co/dtN1takpZs",
+      "lines": [
+        "S3"
+      ],
+      "status": "construction",
+      "stations": [
+        "Hirschgarten",
+        "K\u00f6penick",
+        "Hirschgarten",
+        "K\u00f6penick",
+        "Friedrichshagen"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952584095839739986",
+      "timestamp": "2025-08-05 04:15:00",
+      "date": "2025-08-05",
+      "hour": 4,
+      "text": "#S1 #S25 #S85 +++Bauarbeiten+++ Noch bis 2027 entf\u00e4llt der Verkehrshalt #Wollankstra\u00dfe f\u00fcr alle Fahrten in Richtung Norden. Fahrg\u00e4ste mit Ausstieg Wollankstra\u00dfe fahren bis #Sch\u00f6nholz und nutzen den Zug der Gegenrichtung. Einstieg Wollankstra\u00dfe fahren bis #Bornholmer_Str. und",
+      "lines": [
+        "S25",
+        "S1",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Wollankstra\u00dfe",
+        "Bornholmer Str"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1952580324313219398",
+      "timestamp": "2025-08-05 04:00:01",
+      "date": "2025-08-05",
+      "hour": 4,
+      "text": "Guten Morgen. Heute begleitet euch Maya durch den Dienstag. Kommt gut in den Tag.",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 8,
+      "retweets": 1
+    },
+    {
+      "id": "1952459530362859530",
+      "timestamp": "2025-08-04 20:00:01",
+      "date": "2025-08-04",
+      "hour": 20,
+      "text": "Ich mach jetzt hier das Licht aus auf diesem Kanal. Ab morgenfr\u00fch sind wir wieder da. Gute Nacht. Gru\u00df Petra",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 19,
+      "retweets": 0
+    },
+    {
+      "id": "1952457737792634890",
+      "timestamp": "2025-08-04 19:52:54",
+      "date": "2025-08-04",
+      "hour": 19,
+      "text": "#S41: Wegen einer Reparatur eines Signals in #Prenzlauer_Allee kommt es derzeit zu Versp\u00e4tungen und Zugausf\u00e4llen.",
+      "lines": [
+        "S41"
+      ],
+      "status": "delay",
+      "stations": [
+        "Prenzlauer Allee"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1952457008273371383",
+      "timestamp": "2025-08-04 19:50:00",
+      "date": "2025-08-04",
+      "hour": 19,
+      "text": "#S1 #S25 #S85: Bitte weiterhin Bauarbeiten beachten: Es halten keine Z\u00fcge am Bahnhof #Wollankstra\u00dfe in Fahrtrichtung #Frohnau, #Oranienburg und #Hennigsdorf. Genauere Info: https://t.co/Gk9ak8uZCe https://t.co/WoXrbH9TP0",
+      "lines": [
+        "S25",
+        "S1",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Wollankstra\u00dfe",
+        "Frohnau",
+        "Oranienburg",
+        "Hennigsdorf"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952429329985511922",
+      "timestamp": "2025-08-04 18:00:01",
+      "date": "2025-08-04",
+      "hour": 18,
+      "text": "#S3: +++ Bauinfo +++ Noch bis morgen 1:30 Uhr besteht zwischen #Karlshorst &lt;&gt; #Friedrichshagen ein Ersatzverkehr mit Bussen. Zwischen Karlshorst &lt;&gt; #Wuhlheide fahren die Z\u00fcge ab ca. 22 Uhr nur alle 20 Minuten. Genauere Info: https://t.co/GO43u2zSFd https://t.co/G6QRGKe9DT",
+      "lines": [
+        "S3"
+      ],
+      "status": "construction",
+      "stations": [
+        "Karlshorst",
+        "Friedrichshagen",
+        "Wuhlheide"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952426809292914992",
+      "timestamp": "2025-08-04 17:50:00",
+      "date": "2025-08-04",
+      "hour": 17,
+      "text": "#S41 #S42 #S45 #S46 #S47: Bitte heute in der Nacht von ca. 22:00-1:30 Uhr kurzfristige Bauarbeiten beachten: Die Z\u00fcge fahren zwischen #Neuk\u00f6lln &lt;&gt; #Treptower_Park / #Baumschulenweg nur alle 20 Minuten. Genauere Info: https://t.co/RhnMjSRNxD",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "construction",
+      "stations": [
+        "Neuk\u00f6lln",
+        "Treptower Park",
+        "Baumschulenweg"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952418433406038391",
+      "timestamp": "2025-08-04 17:16:43",
+      "date": "2025-08-04",
+      "hour": 17,
+      "text": "#S41 #S42 #S8 #S85: Die St\u00f6rung ist behoben. Die Linie S8 verkehrt wieder durchgehend. Die Linien S41 und S42 fahren weiterhin nur alle 10 Minuten. Die Linie S85 verkehrt nicht. https://t.co/5vj3VX5jda",
+      "lines": [
+        "S8",
+        "S42",
+        "S41",
+        "S85"
+      ],
+      "status": "disruption",
+      "stations": [],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1952403900054614320",
+      "timestamp": "2025-08-04 16:18:58",
+      "date": "2025-08-04",
+      "hour": 16,
+      "text": "#S45 #S46 #S47 #S8 #S85 #S9: Die St\u00f6rung ist behoben. Die Ansagen funktionieren wieder am Bahnsteig. https://t.co/7GjqoPTIix",
+      "lines": [
+        "S8",
+        "S45",
+        "S46",
+        "S47",
+        "S9",
+        "S85"
+      ],
+      "status": "disruption",
+      "stations": [],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952403489050562883",
+      "timestamp": "2025-08-04 16:17:20",
+      "date": "2025-08-04",
+      "hour": 16,
+      "text": "#S2: Die St\u00f6rung ist behoben. Die Z\u00fcge verkehren wieder vom regul\u00e4rem Gleis. Gute Fahrt. https://t.co/D8g6xB4RFQ",
+      "lines": [
+        "S2"
+      ],
+      "status": "disruption",
+      "stations": [],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1952395040250040381",
+      "timestamp": "2025-08-04 15:43:45",
+      "date": "2025-08-04",
+      "hour": 15,
+      "text": "#S41 #S42 #S45 #S46 #S47: Kurzfristige Bauarbeiten: Heute in der Nacht von ca. 22:00-1:30 Uhr fahren die Z\u00fcge zwischen #Neuk\u00f6lln &lt;&gt; #Treptower_Park / #Baumschulenweg nur alle 20 Minuten. Dies ist nicht in der Fahrplanauskunft enthalten. Info: https://t.co/RhnMjSRfI5",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "construction",
+      "stations": [
+        "Neuk\u00f6lln",
+        "Treptower Park",
+        "Baumschulenweg"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952390790379982883",
+      "timestamp": "2025-08-04 15:26:52",
+      "date": "2025-08-04",
+      "hour": 15,
+      "text": "#S41 #S42 #S8 #S85: Die Linien S41 und S42 fahren nur alle 10 Minuten. Die Linie S85 verkehrt derzeit nicht. Die Linie S8 verkehrt zwischen #Birkenwerder &lt;&gt; #Sch\u00f6nhauser_Allee sowie #Treptower_Park &lt;&gt; #Wildau. https://t.co/AE9dqJhl41 https://t.co/5vj3VX5jda",
+      "lines": [
+        "S8",
+        "S42",
+        "S41",
+        "S85"
+      ],
+      "status": "information",
+      "stations": [
+        "Birkenwerder",
+        "Treptower Park",
+        "Wildau"
+      ],
+      "likes": 5,
+      "retweets": 0
+    },
+    {
+      "id": "1952386614157549668",
+      "timestamp": "2025-08-04 15:10:17",
+      "date": "2025-08-04",
+      "hour": 15,
+      "text": "#S41 #S42 #S8 #S85: Aufgrund einer\u00a0technischen St\u00f6rung am Zug in #Storkower_Stra\u00dfe kommt es derzeit zu Versp\u00e4tungen und Zugausf\u00e4llen.",
+      "lines": [
+        "S8",
+        "S42",
+        "S41",
+        "S85"
+      ],
+      "status": "disruption",
+      "stations": [],
+      "likes": 9,
+      "retweets": 0
+    },
+    {
+      "id": "1952361652462014727",
+      "timestamp": "2025-08-04 13:31:05",
+      "date": "2025-08-04",
+      "hour": 13,
+      "text": "#S2: Die St\u00f6rung ist behoben. Der Zugverkehr ist wieder durchgehend. Gute Fahrt. https://t.co/Uu3GkGjJgx",
+      "lines": [
+        "S2"
+      ],
+      "status": "disruption",
+      "stations": [],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1952357814711492894",
+      "timestamp": "2025-08-04 13:15:50",
+      "date": "2025-08-04",
+      "hour": 13,
+      "text": "#S2: Aufgrund der\u00a0Reparatur an einer Weiche in #Marienfelde ist der Zugverkehr derzeit zwischen Marienfelde &lt;&gt; #Schichauweg unterbrochen.",
+      "lines": [
+        "S2"
+      ],
+      "status": "information",
+      "stations": [
+        "Marienfelde"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952341245675901390",
+      "timestamp": "2025-08-04 12:10:00",
+      "date": "2025-08-04",
+      "hour": 12,
+      "text": "Ich \u00fcbergebe nun an Petra und begebe mich in den Feierabend. LG Koko",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 11,
+      "retweets": 0
+    },
+    {
+      "id": "1952277996112429520",
+      "timestamp": "2025-08-04 07:58:40",
+      "date": "2025-08-04",
+      "hour": 7,
+      "text": "#S41, #S42: Der Polizeieinsatz ist beendet. Es kommt noch zu Folgeversp\u00e4tungen und Ausf\u00e4llen. https://t.co/JjRv7xw0ip",
+      "lines": [
+        "S42",
+        "S41"
+      ],
+      "status": "delay",
+      "stations": [],
+      "likes": 7,
+      "retweets": 0
+    },
+    {
+      "id": "1952273906884100455",
+      "timestamp": "2025-08-04 07:42:25",
+      "date": "2025-08-04",
+      "hour": 7,
+      "text": "#S41, #S42: Wegen eines Polizeieinsatzes am Bahnhof #Treptower_Park kommt es zu Versp\u00e4tungen und Ausf\u00e4llen.",
+      "lines": [
+        "S42",
+        "S41"
+      ],
+      "status": "delay",
+      "stations": [
+        "Treptower Park"
+      ],
+      "likes": 3,
+      "retweets": 1
+    },
+    {
+      "id": "1952250763318526169",
+      "timestamp": "2025-08-04 06:10:27",
+      "date": "2025-08-04",
+      "hour": 6,
+      "text": "Am Bahnhof #Sch\u00f6neweide sind die Lautsprecher ausgefallen. Bitte die Anzeigen auf dem Bahnsteig und am Zug beachten.",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 5,
+      "retweets": 1
+    },
+    {
+      "id": "1952241984850080090",
+      "timestamp": "2025-08-04 05:35:34",
+      "date": "2025-08-04",
+      "hour": 5,
+      "text": "#S2: Wegen der Reparatur an einem Signal verkehren die Z\u00fcge in Richtung #Marienfelde am Bahnhof #Buckower_Chaussee vom Gleis 1 (Bahnsteig stadtausw\u00e4rts).",
+      "lines": [
+        "S2"
+      ],
+      "status": "information",
+      "stations": [
+        "Marienfelde",
+        "Buckower Chaussee"
+      ],
+      "likes": 4,
+      "retweets": 1
+    },
+    {
+      "id": "1952224224430395705",
+      "timestamp": "2025-08-04 04:25:00",
+      "date": "2025-08-04",
+      "hour": 4,
+      "text": "Bauinfo - #S75: Die Linie wird heute (04.08.) in der Zeit (Hauptverkehrszeit) von ca. 6 Uhr bis 9:45 Uhr und ca. 15 Uhr bis ca. 20:30 Uhr \u00fcber #Warschauer_Str. hinaus bis #Charlottenburg verl\u00e4ngert.",
+      "lines": [
+        "S75"
+      ],
+      "status": "construction",
+      "stations": [
+        "Warschauer Str",
+        "Charlottenburg"
+      ],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1952224224422322210",
+      "timestamp": "2025-08-04 04:25:00",
+      "date": "2025-08-04",
+      "hour": 4,
+      "text": "Bauinfo - #S3: Durchgehend bis 05.08. (Di) ca. 1:30 Uhr besteht zwischen #Friedrichshagen und #Wuhlheide Ersatzverkehr mit Bussen. Zwischen Friedrichsahgen und #K\u00f6penick verkehrt die Linie im 20-Minuten-Takt. Der Halt in #Hirschgarten entf\u00e4llt. Alle Infos: https://t.co/BPnCpxkmBT https://t.co/fGawKjJXNY",
+      "lines": [
+        "S3"
+      ],
+      "status": "construction",
+      "stations": [
+        "Friedrichshagen",
+        "Wuhlheide",
+        "K\u00f6penick",
+        "Hirschgarten"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1952224224405508200",
+      "timestamp": "2025-08-04 04:25:00",
+      "date": "2025-08-04",
+      "hour": 4,
+      "text": "Bauinfo - #S1, #S25, #S85: Durchgehend bis 2027 entf\u00e4llt der Verkehrshalt #Wollankstra\u00dfe f\u00fcr alle Fahrten in Richtung Norden. Fahrg\u00e4ste mit Ausstieg Wollankstra\u00dfe fahren bis #Sch\u00f6nholz und nutzen den Zug der Gegenrichtung. Einstieg Wollankstra\u00dfe fahren bis #Bornholmer_Str. und https://t.co/nDZnZXzQYw",
+      "lines": [
+        "S25",
+        "S1",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Wollankstra\u00dfe",
+        "Bornholmer Str"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1952217934891274428",
+      "timestamp": "2025-08-04 04:00:00",
+      "date": "2025-08-04",
+      "hour": 4,
+      "text": "Da sind wir wieder. Ich w\u00fcnsche allen einen sch\u00f6nen guten Morgen und einen super Start in die neue Woche. LG Koko",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 21,
+      "retweets": 0
+    },
+    {
+      "id": "1952082175618146397",
+      "timestamp": "2025-08-03 19:00:33",
+      "date": "2025-08-03",
+      "hour": 19,
+      "text": "F\u00fcr mich ist jetzt Feierabend, ich verabschiede mich und w\u00fcnsche allen noch einen entspannten Abend. Bis bald \u2013 Nils.\nAktuelle Informationen zu St\u00f6rungen und Bauarbeiten: https://t.co/AE9dqJhl41",
+      "lines": [],
+      "status": "disruption",
+      "stations": [],
+      "likes": 7,
+      "retweets": 0
+    },
+    {
+      "id": "1952070540833038359",
+      "timestamp": "2025-08-03 18:14:19",
+      "date": "2025-08-03",
+      "hour": 18,
+      "text": "#S45, #S46, #S47 , #S8 Aktualisierung und Update zum kurzfristigen Personalausfall im Stellwerk #Sch\u00f6neweide: Personal ist im Stellwerk eingetroffen. Der Zugverkehr wird wieder aufgenommen. Es kann noch zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen kommen.",
+      "lines": [
+        "S47",
+        "S45",
+        "S46",
+        "S8"
+      ],
+      "status": "disruption",
+      "stations": [],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1952066943013556409",
+      "timestamp": "2025-08-03 18:00:01",
+      "date": "2025-08-03",
+      "hour": 18,
+      "text": "+++Bauinfo+++ #S8, #S85, #S9, #S41, #S42 noch bis 04.08. (Mo) ca. 1:30 Uhr besteht zwischen #Baumschulenweg und #Treptower_Park ein Ersatzverkehr mit Bussen. Zwischen #Treptower_Park und #Neuk\u00f6lln besteht ein Pendelverkehr im 20-Minutentakt. Bitte auch die ge\u00e4nderten",
+      "lines": [
+        "S42",
+        "S41",
+        "S8",
+        "S9",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Baumschulenweg",
+        "Treptower Park",
+        "Treptower Park",
+        "Neuk\u00f6lln"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1952066941528559657",
+      "timestamp": "2025-08-03 18:00:01",
+      "date": "2025-08-03",
+      "hour": 18,
+      "text": "+++ Bauinfo+++ #S3 noch bis 5.8.2025 (Di), ca. 1:30 Uhr besteht zwischen #Friedrichshagen und #Karlshorst ein Ersatzverkehr mit Bussen. Infos: https://t.co/BPnCpxjOMl",
+      "lines": [
+        "S3"
+      ],
+      "status": "construction",
+      "stations": [
+        "Friedrichshagen",
+        "Karlshorst"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1952066940127543502",
+      "timestamp": "2025-08-03 18:00:00",
+      "date": "2025-08-03",
+      "hour": 18,
+      "text": "+++Bauinfo +++ #S2 noch bis zum 04.08.2025 (Mo) ca. 1:30 Uhr besteht zwischen #Blankenfelde und #Priesterweg ein Ersatzverkehr mit Bussen. Bitte dabei die verschiedenen Linienf\u00fchrungen (Bus S2X, S2A, S2B) des Ersatzverkehrs beachten. Infos: https://t.co/PUgyoG4j6N",
+      "lines": [
+        "S2"
+      ],
+      "status": "construction",
+      "stations": [
+        "Blankenfelde",
+        "Priesterweg"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1952066938961870966",
+      "timestamp": "2025-08-03 18:00:00",
+      "date": "2025-08-03",
+      "hour": 18,
+      "text": "+++Bauinfo+++ #S1, #S25, #S85 durchgehend bis 2027 entf\u00e4llt der Verkehrshalt #Wollankstra\u00dfe f\u00fcr alle Fahrten in Richtung Norden. Alle Infos und Tarifhinweise: https://t.co/7CTpSpytUh",
+      "lines": [
+        "S25",
+        "S1",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Wollankstra\u00dfe"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1952064542382633049",
+      "timestamp": "2025-08-03 17:50:29",
+      "date": "2025-08-03",
+      "hour": 17,
+      "text": "Update: Wegen eines kurzfristigen Personalausfalls im Stellwerk Sch\u00f6neweide sind die Linien #S45, #S46 und #S47 zwischen #S\u00fcdkreuz / #Baumschulenweg &lt;&gt; #Sch\u00f6neweide unterbrochen.\n\nEs kommt zu Versp\u00e4tungen, Ausf\u00e4llen und nachfolgenden Einschr\u00e4nkungen:\n\ndie Linie S45 verkehrt https://t.co/zH7x67gwvr",
+      "lines": [
+        "S47",
+        "S45",
+        "S46"
+      ],
+      "status": "disruption",
+      "stations": [
+        "Baumschulenweg"
+      ],
+      "likes": 7,
+      "retweets": 1
+    },
+    {
+      "id": "1952057916271272156",
+      "timestamp": "2025-08-03 17:24:09",
+      "date": "2025-08-03",
+      "hour": 17,
+      "text": "Der Zugverkehr der Linien #S45, #S46 und #S47 ist ab 19 Uhr zwischen #Sch\u00f6neweide und #Baumschulenweg unterbrochen. Grund ist ein kurzfristiger Personalausfall im Stellwerk Sch\u00f6neweide. Die Dauer ist noch unbekannt. \nZugverkehr wie folgt:\nS45 verkehrt zwischen Baumschulenweg und https://t.co/kYLXnQ7AUA",
+      "lines": [
+        "S47",
+        "S45",
+        "S46"
+      ],
+      "status": "disruption",
+      "stations": [
+        "Baumschulenweg"
+      ],
+      "likes": 13,
+      "retweets": 6
+    },
+    {
+      "id": "1952049946426757526",
+      "timestamp": "2025-08-03 16:52:29",
+      "date": "2025-08-03",
+      "hour": 16,
+      "text": "#S45, #S46, #S47 Der Zugverkehr der Linien S45, S46 und S47 ist ab 19 Uhr zwischen #Sch\u00f6neweide und #Baumschulenweg unterbrochen. Grund ist ein kurzfristiger Personalausfall im Stellwerk Sch\u00f6neweide. Weitere Informationen folgen.",
+      "lines": [
+        "S47",
+        "S45",
+        "S46"
+      ],
+      "status": "disruption",
+      "stations": [
+        "Baumschulenweg"
+      ],
+      "likes": 12,
+      "retweets": 5
+    },
+    {
+      "id": "1951996496842227831",
+      "timestamp": "2025-08-03 13:20:05",
+      "date": "2025-08-03",
+      "hour": 13,
+      "text": "Nach der \u00e4rztlichen Versorgung eines Fahrgastes in #Tiergarten kommt es auf den Linien #S3, #S5 und #S7 zu keinen Beeintr\u00e4chtigungen mehr. Gute Fahrt. https://t.co/rsgSgsyVqf",
+      "lines": [
+        "S5",
+        "S7",
+        "S3"
+      ],
+      "status": "information",
+      "stations": [
+        "Tiergarten"
+      ],
+      "likes": 8,
+      "retweets": 0
+    },
+    {
+      "id": "1951986443598831897",
+      "timestamp": "2025-08-03 12:40:08",
+      "date": "2025-08-03",
+      "hour": 12,
+      "text": "#S3, #S5, #S7 Nach der \u00e4rztlichen Versorgung eines Fahrgastes in #Tiergarten kommt es auf den Linien S3, S5 und S7 zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen. Wir bitten um Verst\u00e4ndnis.",
+      "lines": [
+        "S5",
+        "S7",
+        "S3"
+      ],
+      "status": "delay",
+      "stations": [
+        "Tiergarten"
+      ],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1951984440348917796",
+      "timestamp": "2025-08-03 12:32:11",
+      "date": "2025-08-03",
+      "hour": 12,
+      "text": "#S2 Die Linie S2 verkehrt wieder nach heute g\u00fcltigen Fahrplan im 10 -Minuten-Takt zwischen #Buch und #Priesterweg. Gute Fahrt. https://t.co/dbhHsWXE4U",
+      "lines": [
+        "S2"
+      ],
+      "status": "information",
+      "stations": [
+        "Buch",
+        "Priesterweg"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1951976347041223049",
+      "timestamp": "2025-08-03 12:00:01",
+      "date": "2025-08-03",
+      "hour": 12,
+      "text": "Schichtwechsel, Nils informiert euch ab jetzt. Ich w\u00fcnsche einen angenehmen Sonntag, Gru\u00df Micha.",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 12,
+      "retweets": 0
+    },
+    {
+      "id": "1951956841920946288",
+      "timestamp": "2025-08-03 10:42:31",
+      "date": "2025-08-03",
+      "hour": 10,
+      "text": "#S3: Die Z\u00fcge fahren gem\u00e4\u00df Fahrplan, gute Fahrt. https://t.co/DXC8fNp2oI",
+      "lines": [
+        "S3"
+      ],
+      "status": "information",
+      "stations": [],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1951935179586507216",
+      "timestamp": "2025-08-03 09:16:26",
+      "date": "2025-08-03",
+      "hour": 9,
+      "text": "#S3: Die Z\u00fcge fahren wieder, es kann noch zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen kommen. https://t.co/1oYYOcm2lD",
+      "lines": [
+        "S3"
+      ],
+      "status": "delay",
+      "stations": [],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1951931738034249972",
+      "timestamp": "2025-08-03 09:02:46",
+      "date": "2025-08-03",
+      "hour": 9,
+      "text": "#S3: Wegen\u00a0unbefugten Personen auf der Strecke ist der Zugverkehr zwischen #Pichelsberg und #Spandau unterbrochen. Bitte nutzen Sie zur Umfahrung die \u00f6rtlichen Verkehrsmittel. Wir bitten um Ihr Verst\u00e4ndnis. https://t.co/AE9dqJhl41",
+      "lines": [
+        "S3"
+      ],
+      "status": "information",
+      "stations": [
+        "Pichelsberg"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1951915773296771271",
+      "timestamp": "2025-08-03 07:59:19",
+      "date": "2025-08-03",
+      "hour": 7,
+      "text": "#S41, #S42, #S45, #S46, #S47 Wegen vor\u00fcbergehend verminderter Geschwindigkeit auf der Strecke im Bereich #S\u00fcdkreuz kann es zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen kommen. Wir bitten um Entschuldigung. https://t.co/AE9dqJhl41",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "delay",
+      "stations": [],
+      "likes": 9,
+      "retweets": 1
+    },
+    {
+      "id": "1951897091850346956",
+      "timestamp": "2025-08-03 06:45:05",
+      "date": "2025-08-03",
+      "hour": 6,
+      "text": "#S2: Wegen\u00a0Bauarbeiten in #Priesterweg kann der 10-Minuten-Takt auf der Linie S2 nur zwischen #Buch und #Potsdamer_Platz angeboten werden. Wir bitten um Entschuldigung. https://t.co/AE9dqJhSTz",
+      "lines": [
+        "S2"
+      ],
+      "status": "construction",
+      "stations": [
+        "Priesterweg",
+        "Buch",
+        "Potsdamer Platz"
+      ],
+      "likes": 2,
+      "retweets": 1
+    },
+    {
+      "id": "1951874438560972964",
+      "timestamp": "2025-08-03 05:15:04",
+      "date": "2025-08-03",
+      "hour": 5,
+      "text": "Guten Morgen in #Berlin, im Land Brandenburg &amp; den anderen Bundesl\u00e4ndern, Micha informiert heute &amp; w\u00fcnscht gute Fahrt.",
+      "lines": [],
+      "status": "information",
+      "stations": [
+        "Berlin"
+      ],
+      "likes": 19,
+      "retweets": 0
+    },
+    {
+      "id": "1951874419393262044",
+      "timestamp": "2025-08-03 05:15:00",
+      "date": "2025-08-03",
+      "hour": 5,
+      "text": "#S1, #S2, #S25, #S26, #S3, #S41, #S42, #S45, #S46, #S47, #S75, #S8, #S85 &amp; #S9: bitte die Bauarbeiten beachten, f\u00fcr detaillierte Informationen dem Link folgen https://t.co/RzSWCV0NzK . Alle Bauma\u00dfnahmen sind in der Fahrplanauskunft hinterlegt. https://t.co/7Dwxk0KzkN",
+      "lines": [
+        "S3",
+        "S8",
+        "S1",
+        "S42",
+        "S2",
+        "S41",
+        "S45",
+        "S46",
+        "S47",
+        "S26",
+        "S25",
+        "S9",
+        "S75",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1951719650494238907",
+      "timestamp": "2025-08-02 19:00:00",
+      "date": "2025-08-02",
+      "hour": 19,
+      "text": "F\u00fcr heute war es das von unserer Seite. Alle Infos k\u00f6nnt ihr ab jetzt bitte von der Homepage https://t.co/AE9dqJhSTz entnehmen. Ich w\u00fcnsche Euch einen sch\u00f6nen Abend, tolle Nacht und verabschiede mich bis die Tage. LG Frieda \ud83d\udc27",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1951690751034659147",
+      "timestamp": "2025-08-02 17:05:10",
+      "date": "2025-08-02",
+      "hour": 17,
+      "text": "Die Strecke ist wieder frei und wir k\u00f6nnen gem\u00e4\u00df des heutigen Fahrplanes fahren. Es kann noch zu Versp\u00e4tungen kommen. Gute Fahrt! https://t.co/V4LCVQZxS6",
+      "lines": [],
+      "status": "delay",
+      "stations": [],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1951689458484646025",
+      "timestamp": "2025-08-02 17:00:02",
+      "date": "2025-08-02",
+      "hour": 17,
+      "text": "+++Bauinfo+++ #S1, #S25, #S85 durchgehend bis 2027 entf\u00e4llt der Verkehrshalt #Wollankstra\u00dfe f\u00fcr alle Fahrten in Richtung Norden.  Alle Infos und Tarifhinweise: https://t.co/Gk9ak8uZCe https://t.co/IIo957UFTX",
+      "lines": [
+        "S25",
+        "S1",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Wollankstra\u00dfe"
+      ],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1951689454407557458",
+      "timestamp": "2025-08-02 17:00:01",
+      "date": "2025-08-02",
+      "hour": 17,
+      "text": "++++ Bauinfo +++ #S25, #S26 noch bis 03.08. (So) ca. 1 Uhr verkehrt nur die S25 zwischen #Lichterfelde_Ost und #Priesterweg. Infos: https://t.co/UxDJX4cRBm https://t.co/QvQwYKoEuE",
+      "lines": [
+        "S26",
+        "S25"
+      ],
+      "status": "construction",
+      "stations": [
+        "Lichterfelde Ost",
+        "Priesterweg"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951689453858132365",
+      "timestamp": "2025-08-02 17:00:01",
+      "date": "2025-08-02",
+      "hour": 17,
+      "text": "+++ Bauinfo+++ #S3 noch bis 5.8.2025 (Di), ca. 1:30 Uhr besteht zwischen #Friedrichshagen und #Karlshorst ein Ersatzverkehr mit Bussen. Infos: https://t.co/GO43u2zSFd",
+      "lines": [
+        "S3"
+      ],
+      "status": "construction",
+      "stations": [
+        "Friedrichshagen",
+        "Karlshorst"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1951689452553654509",
+      "timestamp": "2025-08-02 17:00:00",
+      "date": "2025-08-02",
+      "hour": 17,
+      "text": "+++Bauinfo +++ #S2 noch bis zum 04.08.2025 (Mo) ca. 1:30 Uhr besteht zwischen #Blankenfelde und #Priesterweg Ersatzverkehr mit Bussen. Bitte dabei die verschiedenen Linienf\u00fchrungen (Bus S2X, S2A, S2B) des Ersatzverkehrs beachten. Infos: https://t.co/UxDJX4cRBm",
+      "lines": [
+        "S2"
+      ],
+      "status": "construction",
+      "stations": [
+        "Blankenfelde",
+        "Priesterweg"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1951689452138479766",
+      "timestamp": "2025-08-02 17:00:00",
+      "date": "2025-08-02",
+      "hour": 17,
+      "text": "+++Bauinfo+++  #S8, #S85, #S9, #S41, #S42 noch bis 04.08. (Mo) ca. 1:30 Uhr besteht zwischen #Baumschulenweg und #Treptower_Park ein Ersatzverkehr mit Bussen. Zwischen #Treptower_Park und #Neuk\u00f6lln besteht ein Pendelverkehr im 20-Minutentakt. Infos: https://t.co/GCg84K2UaU",
+      "lines": [
+        "S42",
+        "S41",
+        "S8",
+        "S9",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Baumschulenweg",
+        "Treptower Park",
+        "Treptower Park",
+        "Neuk\u00f6lln"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1951684381615030482",
+      "timestamp": "2025-08-02 16:39:51",
+      "date": "2025-08-02",
+      "hour": 16,
+      "text": "#S41, #S42, #S8, #S85 Wegen\u00a0unbefugten Personen auf der Strecke in #Sch\u00f6nhauser_Allee kommt es zu Versp\u00e4tungen und Ausf\u00e4llen.",
+      "lines": [
+        "S8",
+        "S42",
+        "S41",
+        "S85"
+      ],
+      "status": "delay",
+      "stations": [],
+      "likes": 6,
+      "retweets": 0
+    },
+    {
+      "id": "1951662975166664748",
+      "timestamp": "2025-08-02 15:14:48",
+      "date": "2025-08-02",
+      "hour": 15,
+      "text": "Die Reparatur wurde soeben beendet und wir nehmen den f\u00fcr heutigen g\u00fcltigen Fahrplan wieder auf. Bitte rechnet noch mit Versp\u00e4tungen und vereinzelten Ausf\u00e4llen. https://t.co/I5wFXqIszW",
+      "lines": [],
+      "status": "delay",
+      "stations": [],
+      "likes": 5,
+      "retweets": 0
+    },
+    {
+      "id": "1951656508275425586",
+      "timestamp": "2025-08-02 14:49:06",
+      "date": "2025-08-02",
+      "hour": 14,
+      "text": "Update: #S8: Zwischen #Sch\u00f6nflie\u00df &lt;&gt; #Birkenwerder Zugverkehr nur im 40-Minuten-Takt. /Klara https://t.co/I5wFXqIszW",
+      "lines": [
+        "S8"
+      ],
+      "status": "information",
+      "stations": [
+        "Birkenwerder"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1951650766822773058",
+      "timestamp": "2025-08-02 14:26:17",
+      "date": "2025-08-02",
+      "hour": 14,
+      "text": "#S1, #S8 Wegen einer\u00a0Reparatur an einem Signal in #Birkenwerder kommt es zu Versp\u00e4tungen und vereinzelten Zugausf\u00e4llen.",
+      "lines": [
+        "S8",
+        "S1"
+      ],
+      "status": "delay",
+      "stations": [
+        "Birkenwerder"
+      ],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1951646816744669649",
+      "timestamp": "2025-08-02 14:10:35",
+      "date": "2025-08-02",
+      "hour": 14,
+      "text": "Update: Es kommt hier zu keinen Einschr\u00e4nkungen mehr. Gute Fahrt! https://t.co/aEbdaeaNvq",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1951641403005559165",
+      "timestamp": "2025-08-02 13:49:04",
+      "date": "2025-08-02",
+      "hour": 13,
+      "text": "Die Untersuchung ist beendet. Bitte rechnet noch mit Versp\u00e4tungen und folgender Einschr\u00e4nkung: \n\n#S2 10-Minuten-Takt  #Priesterweg &lt;&gt; #Nordbahnhof https://t.co/3qs21yj3JZ",
+      "lines": [
+        "S2"
+      ],
+      "status": "delay",
+      "stations": [
+        "Priesterweg",
+        "Nordbahnhof"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951640398599749785",
+      "timestamp": "2025-08-02 13:45:05",
+      "date": "2025-08-02",
+      "hour": 13,
+      "text": "#S2, #S8, #S85 Wegen einer\u00a0technischen Untersuchung am Zug in #Bornholmer_Stra\u00dfe kommt es  zu Versp\u00e4tungen und Zugausf\u00e4llen.",
+      "lines": [
+        "S8",
+        "S2",
+        "S85"
+      ],
+      "status": "delay",
+      "stations": [
+        "Bornholmer Stra\u00dfe"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951634051061694698",
+      "timestamp": "2025-08-02 13:19:52",
+      "date": "2025-08-02",
+      "hour": 13,
+      "text": "#S2, #S8, #S85 Die Reparatur an der Weiche in #Blankenburg ist beendet. Die Z\u00fcge fahren wieder nach heute g\u00fcltigem Fahrplan. Bitte rechnet noch mit Versp\u00e4tungen und vereinzelten Zugausf\u00e4llen. https://t.co/jOTP7m9WHd",
+      "lines": [
+        "S8",
+        "S2",
+        "S85"
+      ],
+      "status": "delay",
+      "stations": [
+        "Blankenburg"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951629057822806362",
+      "timestamp": "2025-08-02 13:00:01",
+      "date": "2025-08-02",
+      "hour": 13,
+      "text": "Ich mache jetzt Feierabend und ab jetzt wird Euch Frieda aktuell informieren. Gru\u00df Lucy",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 12,
+      "retweets": 0
+    },
+    {
+      "id": "1951614188289249642",
+      "timestamp": "2025-08-02 12:00:56",
+      "date": "2025-08-02",
+      "hour": 12,
+      "text": "Update: Nach einer\u00a0technischen Untersuchung am Zug in #K\u00f6llnische_Heide kommt es auf den Linien #S41, #S42, #S45, #S46 und #S47 noch zu Versp\u00e4tungen und Zugausf\u00e4llen. https://t.co/aLkFsmjd0h",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "delay",
+      "stations": [
+        "K\u00f6llnische Heide"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1951603460639531045",
+      "timestamp": "2025-08-02 11:18:18",
+      "date": "2025-08-02",
+      "hour": 11,
+      "text": "#S2, #S8, #S85 Wegen der Reparatur an einer Weiche in #Blankenburg kommt es zu Versp\u00e4tungen sowie nachfolgenden Einschr\u00e4nkungen:\n\n#S2 verkehrt zwischen #Priesterweg und #Pankow sowie #Karow und #Bernau.\nBitte nutzen Sie zwischen #Pankow und #Blankenburg die Linie #S8.\nDer https://t.co/EvvXpRIrDR",
+      "lines": [
+        "S8",
+        "S2",
+        "S85"
+      ],
+      "status": "delay",
+      "stations": [
+        "Blankenburg",
+        "Priesterweg",
+        "Pankow",
+        "Karow",
+        "Bernau",
+        "Pankow",
+        "Blankenburg"
+      ],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1951595071020646646",
+      "timestamp": "2025-08-02 10:44:58",
+      "date": "2025-08-02",
+      "hour": 10,
+      "text": "#S2: Update: Haltestellen des Ersatzverkehrs mit Bussen:\n\n#Blankenburg: Bahnhofstr. (wie Bus 150, 154)\n#Karow: Hubertusdamm (wie Bus 350) https://t.co/IoRcgoumAj",
+      "lines": [
+        "S2"
+      ],
+      "status": "information",
+      "stations": [
+        "Blankenburg",
+        "Karow"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951586099530186780",
+      "timestamp": "2025-08-02 10:09:19",
+      "date": "2025-08-02",
+      "hour": 10,
+      "text": "#S41, #S42, #S45, #S46, #S47 Wegen einer\u00a0technischen Untersuchung am Zug in #K\u00f6llnische_Heide kommt es zu Versp\u00e4tungen und Zugausf\u00e4llen.",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "delay",
+      "stations": [
+        "K\u00f6llnische Heide"
+      ],
+      "likes": 4,
+      "retweets": 1
+    },
+    {
+      "id": "1951582122830917678",
+      "timestamp": "2025-08-02 09:53:31",
+      "date": "2025-08-02",
+      "hour": 9,
+      "text": "#S2, #S8, #S85 Update: Die Linie S2 verkehrt zwischen #Priesterweg und #Pankow sowie #Karow und #Bernau.\nBitte nutzen Sie zwischen Pankow und Blankenburg die Linie S8.\nDer 10-Minuten-Takt kann nur zwischen\u00a0#Priesterweg und #Nordbahnhof angeboten werden.\nEin\u00a0Ersatzverkehr mit https://t.co/GLwAslFWlV",
+      "lines": [
+        "S8",
+        "S2",
+        "S85"
+      ],
+      "status": "information",
+      "stations": [
+        "Priesterweg",
+        "Pankow",
+        "Karow",
+        "Bernau",
+        "Priesterweg",
+        "Nordbahnhof"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951578903660593426",
+      "timestamp": "2025-08-02 09:40:43",
+      "date": "2025-08-02",
+      "hour": 9,
+      "text": "#S2 UPDATE: \n#S2 verkehrt zwischen #Priesterweg und #Pankow sowie #Karow und #Bernau.\nDer 10-Minuten-Takt kann nur zwischen\u00a0#Priesterweg und #Nordbahnhof angeboten werden. https://t.co/hgTL5QU3WZ",
+      "lines": [
+        "S2"
+      ],
+      "status": "information",
+      "stations": [
+        "Priesterweg",
+        "Pankow",
+        "Karow",
+        "Bernau",
+        "Priesterweg",
+        "Nordbahnhof"
+      ],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951576741287256534",
+      "timestamp": "2025-08-02 09:32:08",
+      "date": "2025-08-02",
+      "hour": 9,
+      "text": "#S2, #S8, #S85 Bitte nutzen Sie zwischen #Bornholmer_Stra\u00dfe und #Birkenwerder die Linie #S1. https://t.co/jvOHcPjhKN",
+      "lines": [
+        "S1",
+        "S8",
+        "S2",
+        "S85"
+      ],
+      "status": "information",
+      "stations": [
+        "Bornholmer Stra\u00dfe",
+        "Birkenwerder"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1951567607976407106",
+      "timestamp": "2025-08-02 08:55:50",
+      "date": "2025-08-02",
+      "hour": 8,
+      "text": "#S2, #S8, #S85  Wegen der Reparatur an einer Weiche in #Blankenburg fahren die Z\u00fcge wie folgt:                                                    #S2 #Priesterweg&lt;&gt;#Pankow sowie #Karow&lt;&gt;#Bernau  im 10-Minutentakt  #Priesterweg&lt;&gt;#Nordbahnhof, #S8 #Greifswalder_Stra\u00dfe&lt;&gt;#Blankenburg",
+      "lines": [
+        "S8",
+        "S2",
+        "S85"
+      ],
+      "status": "information",
+      "stations": [
+        "Blankenburg",
+        "Priesterweg",
+        "Pankow",
+        "Karow",
+        "Bernau",
+        "Priesterweg",
+        "Nordbahnhof",
+        "Greifswalder Stra\u00dfe",
+        "Blankenburg"
+      ],
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": "1951516948958740482",
+      "timestamp": "2025-08-02 05:34:32",
+      "date": "2025-08-02",
+      "hour": 5,
+      "text": "In #Sch\u00f6neweide ist die akustische Fahrgastinformation ausgefallen. An der Reparatur wird mit Hochdruck gearbeitet.",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1951509004829548938",
+      "timestamp": "2025-08-02 05:02:58",
+      "date": "2025-08-02",
+      "hour": 5,
+      "text": "Bauinfo: #S1, #S2, #S25, #S26, #S3, #S41, #S42, #S47, #S75, #S8, #S85 , #S9: bitte die umfangreichen Bauarbeiten beachten.  Detaillierte Informationen unter https://t.co/AE9dqJhl41 Alle Bauarbeiten sind auch in der Fahrplanauskunft hinterlegt.",
+      "lines": [
+        "S3",
+        "S8",
+        "S1",
+        "S42",
+        "S2",
+        "S41",
+        "S47",
+        "S26",
+        "S25",
+        "S9",
+        "S75",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [],
+      "likes": 4,
+      "retweets": 1
+    },
+    {
+      "id": "1951508618311881045",
+      "timestamp": "2025-08-02 05:01:26",
+      "date": "2025-08-02",
+      "hour": 5,
+      "text": "#S41, #S42, #S45, #S46, #S47: Wegen vor\u00fcbergehend verminderter Geschwindigkeit auf der Strecke im Bereich #S\u00fcdkreuz kann es zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen kommen.",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "delay",
+      "stations": [],
+      "likes": 6,
+      "retweets": 2
+    },
+    {
+      "id": "1951508317982826515",
+      "timestamp": "2025-08-02 05:00:14",
+      "date": "2025-08-02",
+      "hour": 5,
+      "text": "Ich w\u00fcnsche allen einen guten Morgen und sch\u00f6nen Samstag. Heute Vormittag informiert Euch Lucy https://t.co/D2xHR9DRyT",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 19,
+      "retweets": 0
+    },
+    {
+      "id": "1951372365725614337",
+      "timestamp": "2025-08-01 20:00:01",
+      "date": "2025-08-01",
+      "hour": 20,
+      "text": "Hier ist nun Feierabend. Kommt gut durch die Nacht. Gru\u00df Klara",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 14,
+      "retweets": 0
+    },
+    {
+      "id": "1951354816761913778",
+      "timestamp": "2025-08-01 18:50:17",
+      "date": "2025-08-01",
+      "hour": 18,
+      "text": "#S41, #S42: Der Zugverkehr zwischen #Landsberger_Allee &lt;&gt; #Greifswalder_Stra\u00dfe wird wieder aufgenommen. https://t.co/lBPqNT99hg",
+      "lines": [
+        "S42",
+        "S41"
+      ],
+      "status": "information",
+      "stations": [
+        "Landsberger Allee",
+        "Greifswalder Stra\u00dfe"
+      ],
+      "likes": 9,
+      "retweets": 0
+    },
+    {
+      "id": "1951346114864750958",
+      "timestamp": "2025-08-01 18:15:42",
+      "date": "2025-08-01",
+      "hour": 18,
+      "text": "Korrektur: #S41, #S42: Wegen unbefugter Personen auf der Strecke im Bereich #Landsberger_Allee ist der Zugverkehr zwischen #Greifswalder_Stra\u00dfe &lt;&gt; #Landsberger_Allee unterbrochen. https://t.co/ixFdCZOyV6",
+      "lines": [
+        "S42",
+        "S41"
+      ],
+      "status": "information",
+      "stations": [
+        "Landsberger Allee",
+        "Greifswalder Stra\u00dfe",
+        "Landsberger Allee"
+      ],
+      "likes": 4,
+      "retweets": 1
+    },
+    {
+      "id": "1951343521538945036",
+      "timestamp": "2025-08-01 18:05:24",
+      "date": "2025-08-01",
+      "hour": 18,
+      "text": "#S41, #S42: Wegen unbefugter Personen auf der Strecke im Bereich #Landsberger_Allee ist der Zugverkehr zwischen #Greifswalder_Stra\u00dfe &lt;&gt; #Frankfurter_Allee unterbrochen.",
+      "lines": [
+        "S42",
+        "S41"
+      ],
+      "status": "information",
+      "stations": [
+        "Landsberger Allee",
+        "Greifswalder Stra\u00dfe",
+        "Frankfurter Allee"
+      ],
+      "likes": 3,
+      "retweets": 0
+    },
+    {
+      "id": "1951342164627124275",
+      "timestamp": "2025-08-01 18:00:00",
+      "date": "2025-08-01",
+      "hour": 18,
+      "text": "Bauinfo #S1, #S2, #S25, #S26, #S3, #S41, #S42, #S47, #S75, #S8, #S85 , #S9: bitte die umfangreichen Bauarbeiten beachten.  Detaillierte Informationen unter https://t.co/AE9dqJhl41.  Alle Bauarbeiten sind auch in der Fahrplanauskunft hinterlegt.",
+      "lines": [
+        "S3",
+        "S8",
+        "S1",
+        "S42",
+        "S2",
+        "S41",
+        "S47",
+        "S26",
+        "S25",
+        "S9",
+        "S75",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [],
+      "likes": 1,
+      "retweets": 0
+    },
+    {
+      "id": "1951335334719135865",
+      "timestamp": "2025-08-01 17:32:52",
+      "date": "2025-08-01",
+      "hour": 17,
+      "text": "#S41, #S42, #S45, #S46, #S47: Wegen vor\u00fcbergehend verminderter Geschwindigkeit auf der Strecke im Bereich #S\u00fcdkreuz kann es zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen kommen. https://t.co/dsOH8M5hOL",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "delay",
+      "stations": [],
+      "likes": 6,
+      "retweets": 0
+    },
+    {
+      "id": "1951252902200107403",
+      "timestamp": "2025-08-01 12:05:19",
+      "date": "2025-08-01",
+      "hour": 12,
+      "text": "Ich verabschiede mich jetzt. Klara h\u00e4lt Euch jetzt weiter auf dem Laufenden. Bye Kathy",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 13,
+      "retweets": 1
+    },
+    {
+      "id": "1951153516162039886",
+      "timestamp": "2025-08-01 05:30:23",
+      "date": "2025-08-01",
+      "hour": 5,
+      "text": "Bauinfo - #S2:  Durchgehend bis zum 04.08.2025 (Mo) ca. 1:30 Uhr besteht zwischen #Blankenfelde und #Priesterweg Ersatzverkehr mit Bussen. Bitte dabei die verschiedenen Linienf\u00fchrungen (Bus S2X, S2A, S2B) des Ersatzverkehrs beachten. Genaue Infos: https://t.co/PUgyoG4j6N",
+      "lines": [
+        "S2"
+      ],
+      "status": "construction",
+      "stations": [
+        "Blankenfelde",
+        "Priesterweg"
+      ],
+      "likes": 5,
+      "retweets": 0
+    },
+    {
+      "id": "1951152933174702256",
+      "timestamp": "2025-08-01 05:28:04",
+      "date": "2025-08-01",
+      "hour": 5,
+      "text": "Bauinfo - #S8, #S85, #S9, #S41, #S42: Durchgehend 04.08. (Mo) ca. 1:30 Uhr besteht zwischen #Baumschulenweg und #Treptower_Park ein Ersatzverkehr mit Bussen. Die Linie S9 verkehrt nicht zwischen #Flughafen_BER und #Spandau. Zwischen #Treptower_Park und #Neuk\u00f6lln besteht ein",
+      "lines": [
+        "S42",
+        "S41",
+        "S8",
+        "S9",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Baumschulenweg",
+        "Treptower Park",
+        "Flughafen BER",
+        "Treptower Park",
+        "Neuk\u00f6lln"
+      ],
+      "likes": 5,
+      "retweets": 0
+    },
+    {
+      "id": "1951150230277103630",
+      "timestamp": "2025-08-01 05:17:20",
+      "date": "2025-08-01",
+      "hour": 5,
+      "text": "Bauinfo - #S3: Durchgehend bis 5.8.2025 (Di), ca. 1:30 Uhr besteht zwischen #Friedrichshagen und #Karlshorst ein Ersatzverkehr mit Bussen. Ausf\u00fchrliche Informationen unter: https://t.co/BPnCpxjOMl",
+      "lines": [
+        "S3"
+      ],
+      "status": "construction",
+      "stations": [
+        "Friedrichshagen",
+        "Karlshorst"
+      ],
+      "likes": 4,
+      "retweets": 0
+    },
+    {
+      "id": "1951145138241044641",
+      "timestamp": "2025-08-01 04:57:06",
+      "date": "2025-08-01",
+      "hour": 4,
+      "text": "Bauinfo - #S1, #S25, #S85: Durchgehend bis 2027 entf\u00e4llt der Verkehrshalt #Wollankstra\u00dfe f\u00fcr alle Fahrten in Richtung Norden. Fahrg\u00e4ste mit Ausstieg Wollankstra\u00dfe fahren bis #Sch\u00f6nholz und nutzen den Zug der Gegenrichtung. Einstieg Wollankstra\u00dfe fahren bis #Bornholmer_Str. und",
+      "lines": [
+        "S25",
+        "S1",
+        "S85"
+      ],
+      "status": "construction",
+      "stations": [
+        "Wollankstra\u00dfe",
+        "Bornholmer Str"
+      ],
+      "likes": 2,
+      "retweets": 0
+    },
+    {
+      "id": "1951144147668087087",
+      "timestamp": "2025-08-01 04:53:09",
+      "date": "2025-08-01",
+      "hour": 4,
+      "text": "Update: Die #S45 verkehrt wieder nach Fahrplan. Es kann weiterhin wegen der vor\u00fcbergehend verminderten Geschwindigkeit im Bereich #S\u00fcdkreuz auf den Linien #S41, #S42, #S45, #S46, #S47 zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen kommen. https://t.co/dsOH8M4JZd",
+      "lines": [
+        "S42",
+        "S41",
+        "S45",
+        "S46",
+        "S47"
+      ],
+      "status": "delay",
+      "stations": [],
+      "likes": 5,
+      "retweets": 1
+    },
+    {
+      "id": "1951133564197576899",
+      "timestamp": "2025-08-01 04:11:06",
+      "date": "2025-08-01",
+      "hour": 4,
+      "text": "#S41, #S42, #S45, #S46, #S47: Wegen vor\u00fcbergehend verminderter Geschwindigkeit auf der Strecke im Bereich #S\u00fcdkreuz kann es zu Versp\u00e4tungen und einzelnen Ausf\u00e4llen kommen. Der 10-Minutentakt auf der Linie S45 kann nur zwischen #Flughafen_BER &lt;&gt; #Hermannstra\u00dfe angeboten werden.",
+      "lines": [
+        "S42",
+        "S41",
+        "S46",
+        "S45",
+        "S47"
+      ],
+      "status": "delay",
+      "stations": [
+        "Flughafen BER",
+        "Hermannstra\u00dfe"
+      ],
+      "likes": 7,
+      "retweets": 2
+    },
+    {
+      "id": "1951130773035295189",
+      "timestamp": "2025-08-01 04:00:01",
+      "date": "2025-08-01",
+      "hour": 4,
+      "text": "Einen sch\u00f6nen guten Morgen w\u00fcnscht Euch Kathy.",
+      "lines": [],
+      "status": "information",
+      "stations": [],
+      "likes": 12,
+      "retweets": 0
+    }
+  ],
+  "summary": {
+    "total_tweets": 89,
+    "status_distribution": {
+      "information": 32,
+      "disruption": 11,
+      "construction": 26,
+      "delay": 20
+    },
+    "lines_affected": {
+      "S8": 21,
+      "S41": 26,
+      "S85": 24,
+      "S3": 14,
+      "S25": 10,
+      "S1": 11,
+      "S42": 24,
+      "S46": 15,
+      "S45": 15,
+      "S47": 17,
+      "S9": 7,
+      "S2": 21,
+      "S75": 4,
+      "S5": 2,
+      "S7": 2,
+      "S26": 4
+    },
+    "most_affected_lines": [
+      "S41",
+      "S85",
+      "S42",
+      "S8",
+      "S2"
+    ],
+    "most_affected_stations": [
+      [
+        "Priesterweg",
+        14
+      ],
+      [
+        "Treptower Park",
+        10
+      ],
+      [
+        "Baumschulenweg",
+        8
+      ],
+      [
+        "Friedrichshagen",
+        6
+      ],
+      [
+        "Wollankstra\u00dfe",
+        6
+      ]
+    ],
+    "hourly_activity": {
+      "12": 7,
+      "6": 3,
+      "5": 11,
+      "4": 10,
+      "20": 2,
+      "19": 4,
+      "18": 10,
+      "17": 11,
+      "16": 4,
+      "15": 4,
+      "13": 7,
+      "7": 3,
+      "10": 3,
+      "9": 5,
+      "14": 3,
+      "11": 1,
+      "8": 1
+    }
+  },
+  "line_status": {
+    "S8": {
+      "disruption": 5,
+      "information": 5,
+      "construction": 6,
+      "delay": 5
+    },
+    "S41": {
+      "disruption": 3,
+      "delay": 11,
+      "construction": 8,
+      "information": 4
+    },
+    "S85": {
+      "disruption": 4,
+      "construction": 12,
+      "information": 4,
+      "delay": 4
+    },
+    "S3": {
+      "construction": 9,
+      "information": 3,
+      "delay": 2
+    },
+    "S25": {
+      "construction": 10
+    },
+    "S1": {
+      "construction": 9,
+      "delay": 1,
+      "information": 1
+    },
+    "S42": {
+      "construction": 8,
+      "disruption": 2,
+      "information": 4,
+      "delay": 10
+    },
+    "S46": {
+      "construction": 3,
+      "disruption": 5,
+      "delay": 7
+    },
+    "S45": {
+      "construction": 3,
+      "disruption": 5,
+      "delay": 7
+    },
+    "S47": {
+      "construction": 5,
+      "disruption": 5,
+      "delay": 7
+    },
+    "S9": {
+      "disruption": 1,
+      "construction": 6
+    },
+    "S2": {
+      "disruption": 2,
+      "information": 8,
+      "construction": 7,
+      "delay": 4
+    },
+    "S75": {
+      "construction": 4
+    },
+    "S5": {
+      "information": 1,
+      "delay": 1
+    },
+    "S7": {
+      "information": 1,
+      "delay": 1
+    },
+    "S26": {
+      "construction": 4
+    }
+  },
+  "hourly_status": {
+    "12": {
+      "information": 5,
+      "delay": 2
+    },
+    "6": {
+      "disruption": 1,
+      "information": 1,
+      "construction": 1
+    },
+    "5": {
+      "construction": 6,
+      "information": 4,
+      "delay": 1
+    },
+    "4": {
+      "construction": 5,
+      "information": 3,
+      "delay": 2
+    },
+    "20": {
+      "information": 2
+    },
+    "19": {
+      "delay": 1,
+      "construction": 1,
+      "disruption": 1,
+      "information": 1
+    },
+    "18": {
+      "construction": 6,
+      "disruption": 1,
+      "information": 3
+    },
+    "17": {
+      "construction": 6,
+      "disruption": 3,
+      "delay": 2
+    },
+    "16": {
+      "disruption": 3,
+      "delay": 1
+    },
+    "15": {
+      "construction": 1,
+      "information": 1,
+      "disruption": 1,
+      "delay": 1
+    },
+    "13": {
+      "disruption": 1,
+      "information": 3,
+      "delay": 3
+    },
+    "7": {
+      "delay": 3
+    },
+    "10": {
+      "information": 2,
+      "delay": 1
+    },
+    "9": {
+      "delay": 1,
+      "information": 4
+    },
+    "14": {
+      "information": 2,
+      "delay": 1
+    },
+    "11": {
+      "delay": 1
+    },
+    "8": {
+      "information": 1
+    }
+  },
+  "station_issues": {
+    "Frankfurter Allee": 2,
+    "Hirschgarten": 3,
+    "K\u00f6penick": 3,
+    "Friedrichshagen": 6,
+    "Wollankstra\u00dfe": 6,
+    "Bornholmer Str": 3,
+    "Prenzlauer Allee": 1,
+    "Frohnau": 1,
+    "Oranienburg": 1,
+    "Hennigsdorf": 1,
+    "Karlshorst": 4,
+    "Wuhlheide": 2,
+    "Neuk\u00f6lln": 5,
+    "Treptower Park": 10,
+    "Baumschulenweg": 8,
+    "Birkenwerder": 4,
+    "Wildau": 1,
+    "Marienfelde": 2,
+    "Buckower Chaussee": 1,
+    "Warschauer Str": 1,
+    "Charlottenburg": 1,
+    "Blankenfelde": 3,
+    "Priesterweg": 14,
+    "Tiergarten": 2,
+    "Buch": 2,
+    "Pichelsberg": 1,
+    "Potsdamer Platz": 1,
+    "Berlin": 1,
+    "Lichterfelde Ost": 1,
+    "Nordbahnhof": 4,
+    "Bornholmer Stra\u00dfe": 2,
+    "Blankenburg": 6,
+    "K\u00f6llnische Heide": 2,
+    "Pankow": 5,
+    "Karow": 5,
+    "Bernau": 4,
+    "Greifswalder Stra\u00dfe": 4,
+    "Landsberger Allee": 4,
+    "Flughafen BER": 2,
+    "Hermannstra\u00dfe": 1
+  }
+}

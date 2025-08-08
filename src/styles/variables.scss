@@ -1,0 +1,18 @@
+// variables.scss
+// Add :export for JS access if needed
+:export {
+  primaryColor: #1976d2;
+  secondaryColor: #9c27b0;
+  errorColor: #d32f2f;
+  warningColor: #ffc107;
+  infoColor: #0288d1;
+  successColor: #2e7d32;
+}
+
+// Regular variables
+$primary-color: #1976d2;
+$secondary-color: #9c27b0;
+$error-color: #d32f2f;
+$warning-color: #ffc107;
+$info-color: #0288d1;
+$success-color: #2e7d32;
