@@ -1,1 +1,6 @@
 node_modules
+.vscode/
+
+# Husky (partial ignore)
+.husky/_/
+.husky/.gitignore
