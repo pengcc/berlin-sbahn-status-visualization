@@ -14,11 +14,11 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix --max-warnings=0",
-      "prettier --write"
+      "eslint --max-warnings=0",
+      "prettier --check"
     ],
     "*.{css,scss,json,md,html}": [
-      "prettier --write"
+      "prettier --check"
     ]
   },
   "dependencies": {
