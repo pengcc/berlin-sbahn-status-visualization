@@ -10,7 +10,7 @@ const StatusBadge = ({ status, count }) => {
         color: 'white',
         fontWeight: 'bold',
       }}
-      size="small"
+      size='small'
     />
   );
 };

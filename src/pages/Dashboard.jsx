@@ -14,17 +14,14 @@ const Dashboard = () => {
   if (!data) return <div>No data available</div>;
 
   return (
-    <Container maxWidth="xl" sx={{ py: 4 }}>
+    <Container maxWidth='xl' sx={{ py: 4 }}>
       <Grid container spacing={3}>
         <Grid item xs={12} md={6} lg={3}>
           <StatusSummaryCard summary={data.summary} />
         </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
-          <LineStatusChart
-            lines={data.summary.most_affected_lines}
-            lineStatus={data.line_status}
-          />
+          <LineStatusChart lines={data.summary.most_affected_lines} lineStatus={data.line_status} />
         </Grid>
 
         <Grid item xs={12} md={6} lg={5}>

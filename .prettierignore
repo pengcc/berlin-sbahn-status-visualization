@@ -1,0 +1,4 @@
+src/data
+eslint.config.js
+vite.config.js
+prettier.config.js
