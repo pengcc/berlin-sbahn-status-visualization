@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useSbahndata = () => {
+const useSbahndata = (datapath) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -9,7 +9,7 @@ const useSbahndata = () => {
     const fetchData = async () => {
       try {
         // In production, replace with actual API call
-        const response = await import('../data/sbahn-data.json');
+        const response = await import(`../data/${datapath}.json`);
         setData(response.default);
       } catch (err) {
         setError(err);
@@ -19,7 +19,7 @@ const useSbahndata = () => {
     };
 
     fetchData();
-  }, []);
+  }, [datapath]);
 
   return { data, loading, error }; // Properly structured return
 };
