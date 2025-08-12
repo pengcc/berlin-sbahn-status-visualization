@@ -1,0 +1,1012 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-08T11:48:45.675269",
+    "data_source": "2025-07.json",
+    "total_disruptions": 224,
+    "resolved": 52,
+    "period": {
+      "start": "2025-07-01",
+      "end": "2025-07-31",
+      "days": 31
+    }
+  },
+  "categories": [
+    {
+      "id": "technical",
+      "name": "Infrastructure & Technical Issues",
+      "subcategories": [
+        {
+          "id": "signal_box",
+          "name": "Defective Stellwerke",
+          "count": 32,
+          "examples": [
+            {
+              "lines": [
+                "S75"
+              ],
+              "stations": [
+                "Friedrichstr",
+                "Warschauer_Str",
+                "Wartenberg"
+              ],
+              "text": "Update zum defekten Stellwerk #Friedrichstr.: Die #S75 verkehrt wieder zwischen #Wartenberg <> #Wars...",
+              "time": "2025-07-01T06:24:01.000Z"
+            },
+            {
+              "lines": [
+                "S9"
+              ],
+              "stations": [
+                "Friedrichstr",
+                "Flughafen_BER"
+              ],
+              "text": "Update zum defekten Stellwerk #Friedrichstr.: Die #S9 fährt wieder durchgehend zwischen #Spandau <> ...",
+              "time": "2025-07-01T08:24:00.000Z"
+            },
+            {
+              "lines": [
+                "S75",
+                "S5",
+                "S7",
+                "S3",
+                "S9"
+              ],
+              "stations": [
+                "Friedrichstr",
+                "Westkreuz",
+                "Erkner",
+                "Ostbahnhof"
+              ],
+              "text": "#S3 #S5 #S7 #S75 #S9 das defekte Stellwerk #Friedrichstr. wurde repariert. Es kann noch zu vereinzel...",
+              "time": "2025-07-01T08:49:58.000Z"
+            }
+          ]
+        },
+        {
+          "id": "signal",
+          "name": "Signal Failures",
+          "count": 59,
+          "examples": [
+            {
+              "lines": [
+                "S42",
+                "S41"
+              ],
+              "stations": [
+                "Wedding"
+              ],
+              "text": "#S41 #S42 Wegen der Reparatur an einer Weiche in #Wedding kann derzeit nur ein 10-Minuten-Takt angeb...",
+              "time": "2025-07-01T11:28:16.000Z"
+            },
+            {
+              "lines": [
+                "S42",
+                "S41"
+              ],
+              "stations": [
+                "Gesundbrunnen",
+                "Beusselstr",
+                "Wedding"
+              ],
+              "text": "#S41 #S42 Update zur Reparatur der Weiche in #Wedding: Zwischen #Gesundbrunnen <> #Beusselstr. beste...",
+              "time": "2025-07-01T11:46:47.000Z"
+            },
+            {
+              "lines": [
+                "S7"
+              ],
+              "stations": [
+                "Marzahn",
+                "Grunewald",
+                "Potsdam_Hbf"
+              ],
+              "text": "#S7: Auf Grund einer Reparatur am Signal in #Potsdam_Hbf verkehrt die #S7 nur zw. #Marzahn <> #Grune...",
+              "time": "2025-07-02T09:35:41.000Z"
+            }
+          ]
+        },
+        {
+          "id": "track",
+          "name": "Track Repairs",
+          "count": 76,
+          "examples": [
+            {
+              "lines": [
+                "S5"
+              ],
+              "stations": [
+                "Mahlsdorf",
+                "Westkreuz"
+              ],
+              "text": "#S5 Wegen Bauarbeiten in #Mahlsdorf  fahren die Züge der #S5 nach #Westkreuz abweichend von Gleis 3 ...",
+              "time": "2025-07-01T04:30:00.000Z"
+            },
+            {
+              "lines": [
+                "S8",
+                "S46"
+              ],
+              "stations": [
+                "Birkenwerder",
+                "Grünau",
+                "Wildau",
+                "Eichwalde"
+              ],
+              "text": "#S8: Wegen eines technischen Defekts an einem Bahnübergang in #Eichwalde verkehrt diese Linie nur zw...",
+              "time": "2025-07-01T12:34:11.000Z"
+            },
+            {
+              "lines": [
+                "S8",
+                "S42",
+                "S85"
+              ],
+              "stations": [],
+              "text": "#S42 #S8 #S85: Nach Tieren auf der Strecke in #Schönhauser_Allee kommt es noch zu Verspätungen und v...",
+              "time": "2025-07-01T14:14:24.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operational",
+      "name": "Operational Disruptions",
+      "subcategories": [
+        {
+          "id": "police",
+          "name": "Police Operations",
+          "count": 0,
+          "examples": []
+        },
+        {
+          "id": "medical",
+          "name": "Medical Emergencies",
+          "count": 1,
+          "examples": [
+            {
+              "lines": [
+                "S5"
+              ],
+              "stations": [
+                "Petershagen_Nord"
+              ],
+              "text": "#S5 Der Fahrgast in #Petershagen_Nord wurde ärztlich versorgt. Der Zugverkehr  wurde wieder aufgenom...",
+              "time": "2025-07-16T17:15:51.000Z"
+            }
+          ]
+        },
+        {
+          "id": "animals",
+          "name": "Animals on Track",
+          "count": 0,
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "name": "Scheduled Construction",
+      "subcategories": [
+        {
+          "id": "ongoing",
+          "name": "Major Projects",
+          "count": 4,
+          "examples": [
+            {
+              "lines": [
+                "S5",
+                "S7",
+                "S9",
+                "S3"
+              ],
+              "stations": [
+                "Zoologischer_Garten",
+                "Ostbahnhof"
+              ],
+              "text": "#S3 #S5 #S7 #S9: +++ Bauinfo +++ Heute in der Nacht von ca. 21:20-1:30 Uhr fahren die Züge zwischen ...",
+              "time": "2025-07-06T14:14:53.000Z"
+            },
+            {
+              "lines": [
+                "S5",
+                "S7",
+                "S9",
+                "S3"
+              ],
+              "stations": [
+                "Ostbahnhof",
+                "Zoologischer_Garten"
+              ],
+              "text": "#S3 #S5 #S7 #S9: +++ Bauinfo +++ Heute in der Nacht von ca. 21:20-1:30 Uhr fahren die Züge zwischen ...",
+              "time": "2025-07-06T17:20:00.000Z"
+            },
+            {
+              "lines": [
+                "S5",
+                "S7",
+                "S9",
+                "S3"
+              ],
+              "stations": [],
+              "text": "#S3, #S5, #S7, #S9: Die heute angesetzte Baumaßnahme wird ausgesetzt und die jeweiligen Linien verke...",
+              "time": "2025-07-07T18:31:22.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "name": "Service Recoveries",
+      "subcategories": [
+        {
+          "id": "resolved",
+          "name": "Resolutions",
+          "count": 52,
+          "examples": [
+            {
+              "lines": [
+                "S3"
+              ],
+              "stations": [
+                "Erkner",
+                "Charlottenburg"
+              ],
+              "text": "#S3: Die Züge fahren zwischen #Erkner <> #Charlottenburg wieder alle 10 Minuten. Gute Fahrt.",
+              "time": "2025-07-01T12:27:33.000Z"
+            },
+            {
+              "lines": [
+                "S42",
+                "S41"
+              ],
+              "stations": [],
+              "text": "#S41 #S42: Die Störung ist behoben. Bitte noch mit Verspätungen und Zugausfällen rechnen.",
+              "time": "2025-07-01T13:59:06.000Z"
+            },
+            {
+              "lines": [
+                "S8",
+                "S42",
+                "S85",
+                "S41"
+              ],
+              "stations": [],
+              "text": "#S41 #S42 #S8 #S85: Der Brand ist gelöscht. Der Zugverkehr wurde wieder aufgenommen. Bitte noch mit ...",
+              "time": "2025-07-01T16:33:50.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "line": "S9",
+      "disruptions": 56,
+      "distribution_days": 22,
+      "distribution_index": 70.97,
+      "affected_stations": [
+        "Jannowitzbrücke",
+        "Hoppegarten",
+        "Treptower_Park",
+        "Westkreuz",
+        "Frohnau",
+        "Pichelsberg",
+        "Heerstraße",
+        "Alexanderplatz",
+        "Erkner",
+        "Charlottenburg",
+        "Mahlsdorf",
+        "Neukölln",
+        "Zoologischer_Garten",
+        "Flughafen_BER",
+        "Bornholmer_Straße",
+        "Karlshorst",
+        "Baumschulenweg",
+        "Hackescher_Markt",
+        "Friedrichstr",
+        "Grünau",
+        "Ostbahnhof",
+        "Warschauer_Str",
+        "Grünbergallee"
+      ],
+      "common_issues": {
+        "technical_signal_box": 25,
+        "technical_signal": 14,
+        "recovery_resolved": 7
+      },
+      "last_occurrence": "2025-07-30T18:30:01"
+    },
+    {
+      "line": "S5",
+      "disruptions": 54,
+      "distribution_days": 20,
+      "distribution_index": 64.52,
+      "affected_stations": [
+        "Jannowitzbrücke",
+        "Hoppegarten",
+        "Biesdorf",
+        "Treptower_Park",
+        "Westkreuz",
+        "Alexanderplatz",
+        "Erkner",
+        "Charlottenburg",
+        "Mahlsdorf",
+        "Petershagen_Nord",
+        "Zoologischer_Garten",
+        "Warschauer_Straße",
+        "Hackescher_Markt",
+        "Friedrichstr",
+        "Wartenberg",
+        "Ostbahnhof",
+        "Warschauer_Str",
+        "Hegermühle",
+        "Fredersdorf"
+      ],
+      "common_issues": {
+        "technical_track": 20,
+        "technical_signal": 15,
+        "recovery_resolved": 10
+      },
+      "last_occurrence": "2025-07-30T18:30:01"
+    },
+    {
+      "line": "S8",
+      "disruptions": 50,
+      "distribution_days": 22,
+      "distribution_index": 70.97,
+      "affected_stations": [
+        "Wildau",
+        "Birkenwerder",
+        "Treptower_Park",
+        "Pankow_Heinersdorf",
+        "Ostkreuz",
+        "Frohnau",
+        "Königs_Wusterhausen",
+        "Greifswalder_Str",
+        "Greifswalder_Straße",
+        "Erkner",
+        "Oranienburg",
+        "Eichwalde",
+        "Zeuthen",
+        "Neukölln",
+        "Hohen_Neuendorf",
+        "Waidmannslust",
+        "Bornholmer_Straße",
+        "Wannsee",
+        "Baumschulenweg",
+        "Karlshorst",
+        "Grünau",
+        "Prenzlauer_Allee",
+        "Landsberger_Allee",
+        "Frankfurter_Allee",
+        "Eiwalde",
+        "Grünbergallee"
+      ],
+      "common_issues": {
+        "technical_signal_box": 21,
+        "technical_track": 13,
+        "technical_signal": 10
+      },
+      "last_occurrence": "2025-07-30T18:00:01"
+    },
+    {
+      "line": "S7",
+      "disruptions": 49,
+      "distribution_days": 21,
+      "distribution_index": 67.74,
+      "affected_stations": [
+        "Jannowitzbrücke",
+        "Hoppegarten",
+        "Treptower_Park",
+        "Potsdam_Hbf",
+        "Potsdam",
+        "Westkreuz",
+        "Marzahn",
+        "Alexanderplatz",
+        "Erkner",
+        "Charlottenburg",
+        "Mahlsdorf",
+        "Potdam_Hbf",
+        "Grunewald",
+        "Zoologischer_Garten",
+        "Warschauer_Straße",
+        "Wannsee",
+        "Hackescher_Markt",
+        "Ahrensfelde",
+        "Friedrichstr",
+        "Mehrower_Allee",
+        "Potsdam_Hauptbahnhof",
+        "Wartenberg",
+        "Ostbahnhof",
+        "Griebnitzsee",
+        "Warschauer_Str"
+      ],
+      "common_issues": {
+        "technical_signal": 25,
+        "technical_track": 9,
+        "recovery_resolved": 6
+      },
+      "last_occurrence": "2025-07-30T18:30:01"
+    },
+    {
+      "line": "S85",
+      "disruptions": 48,
+      "distribution_days": 22,
+      "distribution_index": 70.97,
+      "affected_stations": [
+        "Treptower_Park",
+        "Pankow_Heinersdorf",
+        "Frohnau",
+        "Zehlendorf",
+        "Wollankstraße",
+        "Erkner",
+        "Oranienburg",
+        "Neukölln",
+        "Waidmannslust",
+        "Bornholmer_Straße",
+        "Wannsee",
+        "Baumschulenweg",
+        "Gesundbrunnen",
+        "Potsdamer_Platz",
+        "Karlshorst",
+        "Grünau",
+        "Prenzlauer_Allee",
+        "Landsberger_Allee",
+        "Frankfurter_Allee",
+        "Grünbergallee",
+        "Hermsdorf",
+        "Nordbahnhof"
+      ],
+      "common_issues": {
+        "technical_signal_box": 21,
+        "technical_track": 11,
+        "technical_signal": 9
+      },
+      "last_occurrence": "2025-07-30T18:00:01"
+    },
+    {
+      "line": "S46",
+      "disruptions": 39,
+      "distribution_days": 16,
+      "distribution_index": 51.61,
+      "affected_stations": [
+        "Grünau",
+        "Wildau",
+        "Eichwalde",
+        "Birkenwerder",
+        "Zeuthen",
+        "Treptower_Park",
+        "Bornholmer_Straße",
+        "Karlshorst",
+        "Tempelhof",
+        "Eiwalde",
+        "Westend",
+        "Grünbergallee",
+        "Königs_Wusterhausen",
+        "Frohnau",
+        "Baumschulenweg",
+        "Erkner",
+        "Kölnische_Heide"
+      ],
+      "common_issues": {
+        "technical_signal_box": 16,
+        "technical_track": 9,
+        "technical_signal": 9
+      },
+      "last_occurrence": "2025-07-29T15:32:00"
+    },
+    {
+      "line": "S3",
+      "disruptions": 38,
+      "distribution_days": 19,
+      "distribution_index": 61.29,
+      "affected_stations": [
+        "Jannowitzbrücke",
+        "Hoppegarten",
+        "Treptower_Park",
+        "Westkreuz",
+        "Rahnsdorf",
+        "Pichelsberg",
+        "Heerstraße",
+        "Alexanderplatz",
+        "Erkner",
+        "Charlottenburg",
+        "Mahlsdorf",
+        "Zoologischer_Garten",
+        "Warschauer_Straße",
+        "Karlshorst",
+        "Hackescher_Markt",
+        "Friedrichstr",
+        "Wartenberg",
+        "Ostbahnhof",
+        "Warschauer_Str"
+      ],
+      "common_issues": {
+        "technical_signal": 16,
+        "technical_track": 9,
+        "recovery_resolved": 5
+      },
+      "last_occurrence": "2025-07-30T18:30:01"
+    },
+    {
+      "line": "S45",
+      "disruptions": 35,
+      "distribution_days": 13,
+      "distribution_index": 41.94,
+      "affected_stations": [
+        "Grünau",
+        "Treptower_Park",
+        "Karlshorst",
+        "Tempelhof",
+        "Frohnau",
+        "Grünbergallee",
+        "Flughafen_BER",
+        "Bornholmer_Straße",
+        "Baumschulenweg",
+        "Erkner",
+        "Kölnische_Heide"
+      ],
+      "common_issues": {
+        "technical_signal_box": 17,
+        "recovery_resolved": 7,
+        "technical_track": 6
+      },
+      "last_occurrence": "2025-07-28T17:38:49"
+    },
+    {
+      "line": "S1",
+      "disruptions": 30,
+      "distribution_days": 21,
+      "distribution_index": 67.74,
+      "affected_stations": [
+        "Lichterfelde_West",
+        "Oranienburger_Straße",
+        "Wildau",
+        "Humboldthain",
+        "Birkenwerder",
+        "Treptower_Park",
+        "Frohnau",
+        "Zehlendorf",
+        "Bornholmer_Str",
+        "Wollankstraße",
+        "Oranienburg",
+        "Hohen_Neuendorf",
+        "Waidmannslust",
+        "Bernau",
+        "Bornholmer_Straße",
+        "Wannsee",
+        "Gesundbrunnen",
+        "Potsdamer_Platz",
+        "Baumschulenweg",
+        "Blankenfelde",
+        "Botanischer_Garten",
+        "Grünau",
+        "Brandenburger_Tor",
+        "Lichterfelde_Ost",
+        "Hermsdorf",
+        "Nordbahnhof"
+      ],
+      "common_issues": {
+        "technical_track": 14,
+        "recovery_resolved": 7,
+        "technical_signal": 7
+      },
+      "last_occurrence": "2025-07-29T13:40:28"
+    },
+    {
+      "line": "S42",
+      "disruptions": 29,
+      "distribution_days": 18,
+      "distribution_index": 58.06,
+      "affected_stations": [
+        "Grünau",
+        "Prenzlauer_Allee",
+        "Wedding",
+        "Landsberger_Allee",
+        "Treptower_Park",
+        "Greifswalder_Straße",
+        "Greifswalder_Str",
+        "Neukölln",
+        "Tempelhof",
+        "Beusselstr",
+        "Frankfurter_Allee",
+        "Ostkreuz",
+        "Frohnau",
+        "Westend",
+        "Königs_Wusterhausen",
+        "Wollankstraße",
+        "Gesundbrunnen",
+        "Baumschulenweg"
+      ],
+      "common_issues": {
+        "technical_track": 15,
+        "recovery_resolved": 8,
+        "technical_signal_box": 4
+      },
+      "last_occurrence": "2025-07-30T18:00:01"
+    },
+    {
+      "line": "S47",
+      "disruptions": 29,
+      "distribution_days": 14,
+      "distribution_index": 45.16,
+      "affected_stations": [
+        "Grünau",
+        "Treptower_Park",
+        "Neukölln",
+        "Karlshorst",
+        "Tempelhof",
+        "Frohnau",
+        "Grünbergallee",
+        "Bornholmer_Straße",
+        "Baumschulenweg",
+        "Erkner",
+        "Kölnische_Heide"
+      ],
+      "common_issues": {
+        "technical_signal_box": 17,
+        "technical_track": 7,
+        "technical_signal": 4
+      },
+      "last_occurrence": "2025-07-29T04:35:35"
+    },
+    {
+      "line": "S41",
+      "disruptions": 28,
+      "distribution_days": 18,
+      "distribution_index": 58.06,
+      "affected_stations": [
+        "Grünau",
+        "Prenzlauer_Allee",
+        "Wedding",
+        "Landsberger_Allee",
+        "Treptower_Park",
+        "Greifswalder_Straße",
+        "Greifswalder_Str",
+        "Neukölln",
+        "Tempelhof",
+        "Beusselstr",
+        "Frankfurter_Allee",
+        "Ostkreuz",
+        "Frohnau",
+        "Westend",
+        "Königs_Wusterhausen",
+        "Wollankstraße",
+        "Gesundbrunnen",
+        "Baumschulenweg"
+      ],
+      "common_issues": {
+        "technical_track": 14,
+        "recovery_resolved": 8,
+        "technical_signal_box": 4
+      },
+      "last_occurrence": "2025-07-30T18:00:01"
+    },
+    {
+      "line": "S2",
+      "disruptions": 28,
+      "distribution_days": 16,
+      "distribution_index": 51.61,
+      "affected_stations": [
+        "Röntgental",
+        "Oranienburger_Straße",
+        "Humboldthain",
+        "Birkenwerder",
+        "Pankow_Heinersdorf",
+        "Zehlendorf",
+        "Yorckstraße",
+        "Priesterweg",
+        "Anhalter_Bahnhof",
+        "Lichterfelde_Süd",
+        "Marienfelde",
+        "Teltow_Stadt",
+        "Bernau",
+        "Bornholmer_Straße",
+        "Wannsee",
+        "Gesundbrunnen",
+        "Potsdamer_Platz",
+        "Blankenfelde",
+        "Buch",
+        "Brandenburger_Tor",
+        "Lichtenrade",
+        "Lichterfelde_Ost",
+        "Attilastraße",
+        "Nordbahnhof"
+      ],
+      "common_issues": {
+        "technical_track": 12,
+        "technical_signal": 8,
+        "recovery_resolved": 7
+      },
+      "last_occurrence": "2025-07-30T06:55:10"
+    },
+    {
+      "line": "S25",
+      "disruptions": 24,
+      "distribution_days": 16,
+      "distribution_index": 51.61,
+      "affected_stations": [
+        "Oranienburger_Straße",
+        "Humboldthain",
+        "Birkenwerder",
+        "Zehlendorf",
+        "Yorckstraße",
+        "Bornholmer_Str",
+        "Priesterweg",
+        "Anhalter_Bahnhof",
+        "Lichterfelde_Süd",
+        "Wollankstraße",
+        "Oranienburg",
+        "Heiligensee",
+        "Bernau",
+        "Bornholmer_Straße",
+        "Wannsee",
+        "Gesundbrunnen",
+        "Potsdamer_Platz",
+        "Blankenfelde",
+        "Buch",
+        "Tegel",
+        "Brandenburger_Tor",
+        "Alt_Reinickendorf",
+        "Lichterfelde_Ost",
+        "Nordbahnhof"
+      ],
+      "common_issues": {
+        "technical_track": 14,
+        "recovery_resolved": 7,
+        "technical_signal": 3
+      },
+      "last_occurrence": "2025-07-30T10:07:29"
+    },
+    {
+      "line": "S75",
+      "disruptions": 22,
+      "distribution_days": 14,
+      "distribution_index": 45.16,
+      "affected_stations": [
+        "Mahlsdorf",
+        "Friedrichstr",
+        "Wartenberg",
+        "Ostbahnhof",
+        "Hoppegarten",
+        "Warschauer_Str",
+        "Alexanderplatz",
+        "Warschauer_Straße",
+        "Westkreuz",
+        "Friedrichsfelde_Ost",
+        "Hohenschönhausen",
+        "Hackescher_Markt",
+        "Erkner",
+        "Charlottenburg"
+      ],
+      "common_issues": {
+        "technical_signal": 9,
+        "technical_track": 6,
+        "technical_signal_box": 5
+      },
+      "last_occurrence": "2025-07-30T15:24:45"
+    },
+    {
+      "line": "S26",
+      "disruptions": 19,
+      "distribution_days": 12,
+      "distribution_index": 38.71,
+      "affected_stations": [
+        "Oranienburger_Straße",
+        "Humboldthain",
+        "Pankow_Heinersdorf",
+        "Zehlendorf",
+        "Yorckstraße",
+        "Bornholmer_Str",
+        "Priesterweg",
+        "Anhalter_Bahnhof",
+        "Lichterfelde_Süd",
+        "Wollankstraße",
+        "Oranienburg",
+        "Teltow_Stadt",
+        "Bornholmer_Straße",
+        "Wannsee",
+        "Potsdamer_Platz",
+        "Buch",
+        "Brandenburger_Tor",
+        "Lichterfelde_Ost",
+        "Blankenburg",
+        "Nordbahnhof"
+      ],
+      "common_issues": {
+        "technical_track": 10,
+        "recovery_resolved": 4,
+        "technical_signal": 4
+      },
+      "last_occurrence": "2025-07-30T08:29:51"
+    }
+  ],
+  "stations": [
+    {
+      "station": "Treptower_Park",
+      "disruptions": 17,
+      "affected_lines": [
+        "S85",
+        "S41",
+        "S47",
+        "S42",
+        "S46",
+        "S45",
+        "S5",
+        "S7",
+        "S1",
+        "S3",
+        "S8",
+        "S9"
+      ],
+      "common_issues": {
+        "technical_signal_box": 12,
+        "technical_track": 4,
+        "technical_signal": 1
+      },
+      "last_occurrence": "2025-07-30T18:00:01"
+    },
+    {
+      "station": "Ostbahnhof",
+      "disruptions": 14,
+      "affected_lines": [
+        "S75",
+        "S5",
+        "S7",
+        "S3",
+        "S9"
+      ],
+      "common_issues": {
+        "technical_signal": 6,
+        "technical_signal_box": 3,
+        "construction_ongoing": 3
+      },
+      "last_occurrence": "2025-07-30T18:30:01"
+    },
+    {
+      "station": "Grünau",
+      "disruptions": 13,
+      "affected_lines": [
+        "S85",
+        "S41",
+        "S47",
+        "S42",
+        "S45",
+        "S9",
+        "S1",
+        "S8",
+        "S46"
+      ],
+      "common_issues": {
+        "technical_signal": 6,
+        "technical_track": 4,
+        "technical_signal_box": 3
+      },
+      "last_occurrence": "2025-07-28T08:36:38"
+    },
+    {
+      "station": "Charlottenburg",
+      "disruptions": 10,
+      "affected_lines": [
+        "S75",
+        "S5",
+        "S7",
+        "S3",
+        "S9"
+      ],
+      "common_issues": {
+        "technical_signal": 7,
+        "technical_track": 2,
+        "recovery_resolved": 1
+      },
+      "last_occurrence": "2025-07-25T14:18:05"
+    },
+    {
+      "station": "Wannsee",
+      "disruptions": 10,
+      "affected_lines": [
+        "S25",
+        "S85",
+        "S26",
+        "S7",
+        "S1",
+        "S2",
+        "S8"
+      ],
+      "common_issues": {
+        "technical_track": 6,
+        "technical_signal": 3,
+        "recovery_resolved": 1
+      },
+      "last_occurrence": "2025-07-15T11:48:53"
+    },
+    {
+      "station": "Mahlsdorf",
+      "disruptions": 9,
+      "affected_lines": [
+        "S75",
+        "S5",
+        "S7",
+        "S3",
+        "S9"
+      ],
+      "common_issues": {
+        "technical_track": 5,
+        "technical_signal": 2,
+        "recovery_resolved": 1
+      },
+      "last_occurrence": "2025-07-25T14:18:05"
+    },
+    {
+      "station": "Erkner",
+      "disruptions": 9,
+      "affected_lines": [
+        "S85",
+        "S47",
+        "S46",
+        "S45",
+        "S75",
+        "S5",
+        "S7",
+        "S3",
+        "S8",
+        "S9"
+      ],
+      "common_issues": {
+        "technical_signal": 5,
+        "technical_track": 2,
+        "technical_signal_box": 1
+      },
+      "last_occurrence": "2025-07-22T13:37:04"
+    },
+    {
+      "station": "Ahrensfelde",
+      "disruptions": 9,
+      "affected_lines": [
+        "S7"
+      ],
+      "common_issues": {
+        "technical_signal": 5,
+        "technical_track": 2,
+        "technical_signal_box": 1
+      },
+      "last_occurrence": "2025-07-20T13:53:34"
+    },
+    {
+      "station": "Westkreuz",
+      "disruptions": 8,
+      "affected_lines": [
+        "S75",
+        "S5",
+        "S7",
+        "S3",
+        "S9"
+      ],
+      "common_issues": {
+        "technical_track": 5,
+        "technical_signal_box": 1,
+        "recovery_resolved": 1
+      },
+      "last_occurrence": "2025-07-22T12:01:07"
+    },
+    {
+      "station": "Warschauer_Straße",
+      "disruptions": 8,
+      "affected_lines": [
+        "S75",
+        "S5",
+        "S7",
+        "S3"
+      ],
+      "common_issues": {
+        "technical_track": 4,
+        "technical_signal": 3,
+        "recovery_resolved": 1
+      },
+      "last_occurrence": "2025-07-27T17:07:14"
+    }
+  ]
+}
