@@ -1,9 +1,11 @@
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { Card, CardContent, Typography } from '@mui/material';
+import { Card, CardContent, Typography, useTheme, useMediaQuery } from '@mui/material';
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
 const CategoryBreakdownChart = ({ categories }) => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const data = categories.map((category) => ({
     name: category.name,
     value: category.subcategories.reduce((sum, sub) => sum + sub.count, 0),
@@ -26,7 +28,9 @@ const CategoryBreakdownChart = ({ categories }) => {
               fill='#8884d8'
               dataKey='value'
               nameKey='name'
-              label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+              label={({ name, percent }) =>
+                `${isMobile ? '' : name + ' '}${(percent * 100).toFixed(0)}%`
+              }
             >
               {data.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
