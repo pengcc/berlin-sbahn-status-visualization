@@ -27,3 +27,7 @@ A React application for visualizing Berlin S-Bahn status updates.
 - Vite
 - Material-UI
 - Recharts
+
+## Disclaimer
+
+This project uses publicly available data from the [@SBahnBerlin Twitter/X account](https://x.com/SBahnBerlin) for **educational purposes only**. It is a personal initiative to practice data analysis and React development skills. The visualizations and status information shown here may not fully or accurately represent the actual operational conditions of the Berlin S-Bahn system. This is not an official service, and users should rely on authoritative sources for critical travel decisions.
