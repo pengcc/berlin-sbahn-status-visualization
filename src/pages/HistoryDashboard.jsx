@@ -7,6 +7,7 @@ import {
   Select,
   MenuItem,
   Box,
+  Paper,
 } from '@mui/material';
 import useSBahndata from '../hooks/useSBahnData';
 import CategoryBreakdownChart from '@/components/CategoryBreakdown/CategoryBreakdownChart';
@@ -21,7 +22,7 @@ const availableDatasets = [
   { id: 'sbahn-data-202506', label: 'June 2025' },
 ];
 
-const Dashboard = () => {
+const HistoryDashboard = () => {
   const [selectedDataset, setSelectedDataset] = useState(availableDatasets[0].id);
   const { data, loading, error } = useSBahndata(selectedDataset);
 
@@ -86,8 +87,28 @@ const Dashboard = () => {
           <StationDisruptionChart stations={data.stations} />
         </Grid>
       </Grid>
+
+      <Box sx={{ p: 2 }}>
+        <Typography variant='h4' gutterBottom sx={{ fontWeight: 600 }}>
+          Berlin S-Bahn Status Monitor
+        </Typography>
+
+        <Paper sx={{ p: 2, mb: 3 }}>
+          <Typography variant='body1'>
+            Real-time status information for Berlin S-Bahn lines. Click on any line to see detailed
+            disruption information.
+          </Typography>
+        </Paper>
+
+        <Box sx={{ mt: 4, p: 2, backgroundColor: '#f5f5f5', borderRadius: 1 }}>
+          <Typography variant='body2' color='text.secondary'>
+            Real-time data sourced from VBB (Verkehrsverbund Berlin-Brandenburg). Service
+            information may change rapidly. Always check official sources before traveling.
+          </Typography>
+        </Box>
+      </Box>
     </Container>
   );
 };
 
-export default Dashboard;
+export default HistoryDashboard;
