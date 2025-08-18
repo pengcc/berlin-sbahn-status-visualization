@@ -1,1 +1,2 @@
-export { default as Dashboard } from './Dashboard';
+export { default as HistoryDashboard } from './HistoryDashboard';
+export { default as LineLiveStatus } from './LineLiveStatus';

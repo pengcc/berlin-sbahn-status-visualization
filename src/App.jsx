@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Header, Footer } from './components/layout';
-import { Dashboard } from './pages';
+import { Header, Footer } from '@/components/layout';
+import { HistoryDashboard, LineLiveStatus } from '@/pages';
 import { Box } from '@mui/material';
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
         <Header />
         <Box component='main' sx={{ flexGrow: 1 }}>
           <Routes>
-            <Route path='/' element={<Dashboard />} />
+            <Route path='/' element={<LineLiveStatus />} />
+            <Route path='/analytics' element={<HistoryDashboard />} />
           </Routes>
         </Box>
         <Footer />
