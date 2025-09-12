@@ -16,7 +16,6 @@ import {
   Stack,
   Tooltip,
   Typography,
-  Paper,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import RefreshIcon from '@mui/icons-material/Refresh';
@@ -85,7 +84,7 @@ function StatusChip({ lineName, delaySec = 0, cancelled = false, hasIssues = fal
         icon={<AccessTimeIcon />}
         color='warning'
         variant='outlined'
-        label={`${lineName} – +${Math.round(delaySec / 60)} min`}
+        label={`${lineName} – ${Math.round(delaySec / 60)} min`}
       />
     );
   }
@@ -101,14 +100,31 @@ function StatusChip({ lineName, delaySec = 0, cancelled = false, hasIssues = fal
 
 const LineLiveStatus = () => {
   const [rows, setRows] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true); // initial load indicator
+  const [refreshing, setRefreshing] = useState(false); // background refresh indicator
   const [error, setError] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
   const timerRef = useRef(null);
+  const ongoingRef = useRef(false);
 
-  const refresh = async () => {
-    setError(null);
-    setLoading(true);
+  const refresh = async (background = false) => {
+    // prevent overlapping refreshes
+    if (ongoingRef.current) return;
+    ongoingRef.current = true;
+
+    // If we already have rows, treat this as background refresh by default
+    const isBackground = background || rows.length > 0;
+
+    if (isBackground) {
+      setRefreshing(true);
+    } else {
+      setLoading(true);
+    }
+    // keep previous rows visible while loading in background
+    if (!isBackground) {
+      setError(null);
+    }
+
     try {
       const baseLines = await getAllSuburbanLines();
 
@@ -140,7 +156,7 @@ const LineLiveStatus = () => {
             }
           }
 
-          // Journey snapshot for more precise realtime + remarks (use the first trip's OD if available)
+          // Journey snapshot for more precise realtime  remarks (use the first trip's OD if available)
           let jDelay = 0;
           let jRemarks = [];
           if (trips.length > 0) {
@@ -186,20 +202,31 @@ const LineLiveStatus = () => {
         })
       );
 
+      // Only update rows when new data is ready (keeps UI stable during fetch)
       setRows(enriched);
       setLastUpdated(new Date());
+      setError(null);
     } catch (e) {
       console.error(e);
+      // keep previous rows on error; show message
       setError(e.message || String(e));
     } finally {
-      setLoading(false);
+      ongoingRef.current = false;
+      if (isBackground) {
+        setRefreshing(false);
+      } else {
+        setLoading(false);
+      }
     }
   };
 
   useEffect(() => {
-    refresh();
-    timerRef.current = setInterval(refresh, 60000);
+    // initial load (non-background)
+    refresh(false);
+    // auto-refresh every 10 minutes
+    timerRef.current = setInterval(() => refresh(true), 10 * 60 * 1000);
     return () => clearInterval(timerRef.current);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const anyIssues = useMemo(
@@ -209,41 +236,60 @@ const LineLiveStatus = () => {
 
   return (
     <Box>
-      <Stack direction='row' alignItems='center' justifyContent='space-between' sx={{ mb: 1 }}>
-        <Typography variant='h6'>Live S‑Bahn Linienstatus</Typography>
-        <Paper sx={{ p: 2, mb: 3 }}>
-          <Typography variant='body1' gutterBottom>
-            This page shows real-time status information for Berlin S-Bahn lines using the{' '}
-            <strong>VBB transport REST API</strong> (
-            <a href='https://v6.vbb.transport.rest/' target='_blank' rel='noopener noreferrer'>
-              v6.vbb.transport.rest
-            </a>
-            ).
-          </Typography>
-          <Typography variant='body2'>
-            For official disruption information, always check the{' '}
-            <a
-              href='https://sbahn.berlin/fahren/bauen-stoerung/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              S-Bahn Berlin website
-            </a>{' '}
-            or{' '}
-            <a href='https://x.com/SBahnBerlin' target='_blank' rel='noopener noreferrer'>
-              @SBahnBerlin on X
-            </a>
-            .
-          </Typography>
-          {/* Switch to historical dashboard */}
-          <Button component={RouterLink} to='/analytics' variant='contained' color='primary'>
+      <Stack
+        direction={{ xs: 'column', sm: 'row' }}
+        spacing={{ xs: 1.5, sm: 2 }}
+        alignItems='center'
+        justifyContent='space-between'
+        sx={{ mb: 2 }}
+      >
+        <Typography
+          variant='h6'
+          sx={{
+            fontWeight: 700,
+            width: { xs: '100%', sm: 'auto' },
+            textAlign: { xs: 'center', sm: 'left' },
+            fontSize: { xs: '1rem', md: '1.25rem' },
+          }}
+        >
+          Live S‑Bahn Linienstatus
+        </Typography>
+
+        <Box
+          sx={{
+            width: { xs: '100%', sm: 'auto' },
+            display: 'flex',
+            justifyContent: { xs: 'center', sm: 'center' },
+            px: { xs: 0, sm: 1 },
+          }}
+        >
+          <Button
+            component={RouterLink}
+            to='/analytics'
+            variant='contained'
+            color='primary'
+            size='small'
+            sx={{ whiteSpace: 'nowrap' }}
+          >
             View Historical Analytics
           </Button>
-        </Paper>
-        <Stack direction='row' spacing={1} alignItems='center'>
+        </Box>
+
+        <Box
+          sx={{
+            width: { xs: '100%', sm: 'auto' },
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: { xs: 'center', sm: 'flex-end' },
+            gap: 1,
+          }}
+        >
           {lastUpdated && (
             <Tooltip title={lastUpdated.toLocaleString()}>
-              <Typography variant='caption'>
+              <Typography
+                variant='caption'
+                sx={{ textAlign: { xs: 'center', sm: 'right' }, minWidth: 110 }}
+              >
                 Aktualisiert:{' '}
                 {new Intl.DateTimeFormat(undefined, { hour: '2-digit', minute: '2-digit' }).format(
                   lastUpdated
@@ -252,11 +298,18 @@ const LineLiveStatus = () => {
             </Tooltip>
           )}
           <Tooltip title='Jetzt aktualisieren'>
-            <IconButton onClick={refresh} size='small'>
-              <RefreshIcon />
-            </IconButton>
+            <span>
+              <IconButton
+                onClick={() => refresh(true)}
+                size='small'
+                disabled={refreshing || loading}
+                aria-label='refresh'
+              >
+                {refreshing ? <CircularProgress size={18} /> : <RefreshIcon />}
+              </IconButton>
+            </span>
           </Tooltip>
-        </Stack>
+        </Box>
       </Stack>
 
       {loading ? (

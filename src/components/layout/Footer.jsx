@@ -45,6 +45,15 @@ const Footer = () => {
             <strong style={{ color: theme.palette.error.main }}>educational purposes only</strong>.
           </Typography>
 
+          <Typography variant='body1' gutterBottom>
+            This page retrieves real-time status information for Berlin S-Bahn lines using the{' '}
+            <strong>VBB transport REST API</strong> (
+            <a href='https://v6.vbb.transport.rest/' target='_blank' rel='noopener noreferrer'>
+              v6.vbb.transport.rest
+            </a>
+            ).
+          </Typography>
+
           <Typography variant='body2' sx={{ mb: 1.5, textAlign: { xs: 'center', md: 'left' } }}>
             It is a personal initiative to practice data analysis and React development skills. The
             visualizations and status information shown here may not fully or accurately represent
